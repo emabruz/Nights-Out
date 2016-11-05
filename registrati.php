@@ -47,20 +47,23 @@
     }else{
 ?>
 
-        <h2>Registrati</h2>
+        <div class="row marketing">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+        <h2>Registrati</h2><br>
         <p class="lead">
         <form method="post" action="registrati.php">
-          <input type="text" name="nome" placeholder="nome" required><br>
-          <input type="text" name="cognome" placeholder="cognome" required><br>
-          <input type="text" name="email" placeholder="email" required><br>
-          <input type="password" name="password" placeholder="password" required><br>
-          <input type="password" name="conf_passw" placeholder="conferma password" required><br><br>
+          <input type="text" class="form-control" name="nome" placeholder="nome" required><br>
+          <input type="text" class="form-control" name="cognome" placeholder="cognome" required><br>
+          <input type="text" class="form-control" name="email" placeholder="email" required><br>
+          <input type="password" class="form-control" name="password" placeholder="password" required><br>
+          <input type="password" class="form-control" name="conf_passw" placeholder="conferma password" required><br><br>
           <input type="submit" value="Registrati">
         </form>
         </p>
+        </div><div class="col-lg-3"></div></div>
 
-        <br>
-        <a href="index.php">Torna alla pagina di login</a>
+        <a href="index.php">Torna alla pagina di login</a><br><br><br>
         <?php } ?>
 </div>
 
