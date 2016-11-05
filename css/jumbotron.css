@@ -1,0 +1,137 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: url("../img/lights2.jpg");
+  background-size: cover;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  background-color:white;
+
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+/* DIMENSIONE IMMAGINI */
+
+.larg_magg_alt{
+  
+  height:118px; 
+  width:200px; 
+  margin:0 auto;
+}
+
+.larg_min_alt{
+  height:190px; 
+  width:160px;
+  margin:0 auto;
+}
+.larg_ug_alt{
+  height:190px; 
+  width:190px;
+  margin:0 auto;
+}
+
+/* CSS cookies */
+#cookieChoiceInfo {           /* Imposto le proprietà del banner/dialog box e caratteri del messaggio */
+  background:#FFF;     /* Lo fondo è di colore nero (#000) */
+         
+  font-size: 16px;            /* i caratteri devono essere grandi 16 pixel */
+  color: #191970;                /* il colore dei caratteri è grigio chiaro (#DDD) */
+  padding: 10px;        /* lo spazio intorno al messaggio (sopra, sotto e di lato) quindi il bordo dista 10 pixel */
+  line-height:24px;              
+                              /* questa proprietà modifica la trasparenza del banner/dialogbox */
+}
+#cookieInfoLink {                      
+  color: #E00;                /* il testo del link che aprire la pagina della cookie policy è rosso (#E00)  */
+  text-decoration: underline; /* questa proprietà indica che il testo del link è sottolineato  */
+}
+#cookieInfoLink:hover {       /* la parola hover, vicino al selettore, indica che le proprietà seguenti verranno applicate... */
+                              /* ... al link che conduce alla cookie policy solo quando il mouse ci passa sopra  */
+  color: #F44;                /* il testo del link in questo caso diventa di un rosso più chiaro al passaggio del mouse...  */
+  test-decoration:none;       /*   .... e allo stesso tempo il testo non sarà più sottolineato            */
+}
+#cookieChoiceDismiss {        /* Impostiamo per il link "accetto/ok/chiudi" le proprietà per renderlo... */
+            /* ...visivamente come un pulsante */
+  background-color: #00F;     /* lo sfondo è verde (#0A0) */
+  color: #FFF;                /* Il colore del testo è bianco (#FFF) */
+  text-decoration: none;      /* Il testo non è sottolineato         */
+  font-weight: 600;           /* Il testo è in grassetto             */
+  font-size: 16px;
+  padding: 3px 10px;          /* Imposto lo spazio tra i caratteri e il bordo del pulsante 2pixel sopra e sotto e 10px ai lati */
+  border-radius:  3px;        /* Lo sfondo del pulsante ha i bordi arrotondati con un raggio di 3 pixel */
+}
+#cookieChoiceDismiss:hover {  /* Passando il mouse sopra il pulsante, questo cambia colore in verde chiaro. */
+  background-color: #191970;
+}
