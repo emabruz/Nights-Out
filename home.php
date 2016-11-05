@@ -170,7 +170,7 @@
             }
           }
         }
-        echo '<div class="jumbotron"><p><a href="javascript: window.history.go(-1)">Nuova ricerca...</a></p></div>';
+        if($eventi_vicini == TRUE) echo '<div class="jumbotron"><p><a href="javascript: window.history.go(-1)">Nuova ricerca...</a></p></div>';
       }
       
       if($eventi_vicini == TRUE){
